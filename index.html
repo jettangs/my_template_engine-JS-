@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	</head>
+	<body>
+		Movie Talk
+		<p>Movie: <span id="movie_name">{{ name }}</span></p>
+		{% for (h in house) %}
+            <div>
+                <span>Index:{{index}}</span>
+                <span>house:{{h}}</span>
+                {% for (name in nams) %}
+                    <span></span>
+                {% endfor %}
+                {% for (name in nams) %}
+                    <span></span>
+                {% endfor %}
+            </div>
+        {% endfor %}
+	</body>
+	<script src="script.js"/></script>
+</html>
